@@ -1,0 +1,135 @@
+body{
+  background-color: #F8F9FA;
+  font-family: 'Poppins',sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.p-60{
+  padding: 60px 0px;
+}
+.testimonial_carousel_section{
+  margin: 5% auto 0px;
+  .img-area{
+    width: 100px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .profile_card{
+    background-color: #ffffff;
+    padding: 10%;
+    text-align: center;
+    border-radius: 0 100px 0 100px;
+    -webkit-border-radius:  0 100px 0 100px;
+    -moz-border-radius:  0 100px 0 100px;
+    -ms-border-radius: 0 100px 0 100px;
+    -o-border-radius: 0 100px 0 100px;
+    .img-text{
+      h2{
+        text-transform: uppercase;
+        margin: 20px 0 5px;
+        color: #00bcd4;
+        font-size: 20px;
+      }
+      h3{
+        font-size: 15px;
+        font-weight: 400;
+      }
+      
+        i{
+          color: #00bcd4;
+          margin: 0 5px;
+        }
+
+        hr{
+          color: #00bcd4;
+        }
+        p{
+          font-size:14px;
+        }
+       
+      
+    }
+  }
+}
+
+.card{
+  border: none;
+  outline: none;
+  -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+transition: 900ms;
+&:hover{
+  border: 1px solid rgb(74, 56, 155);
+  -webkit-box-shadow: 10px 10px 35px -30px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 35px -30px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 35px -30px rgba(0,0,0,0.75);
+transition: 0.3s;
+}
+  .card-body{
+   .circle{
+     height: 70px;
+     width: 70px;
+     background-color: lightgray;
+     color: black;
+     padding: 12px;
+     display: inline-block;
+     margin-bottom: 20px;
+     font-size: 30px;
+     border-radius: 50%;
+    p{
+      color: gray;
+    }
+   }
+  }
+}
+
+
+.card{
+  margin-bottom: 30px;
+  &:hover{
+    box-shadow: -1px 9px 40px -12px  rgba(0,0,0,0.75);
+  }
+}
+ 
+.ref-card{
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  img{
+    height: 150px;
+    width: 280px;
+  }
+}
+
+
+
+/*******İletişim********/
+.contact{
+position: relative;
+left: 50%;
+top: 50%;
+
+  .social {
+
+    a{
+      padding: 20px;
+      color: #7b7c7c !important;
+      font-size: 1.1rem;
+      transform: translate(-50%,-50%);
+    }
+  }
+}
+
